@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="David Argente" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="David Argente">David Argente</h1>
+
+          <p class="title">Desarrollador full stak</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Expandir</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:daargente@gmail.com" class="contact-link">daargente@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Teléfono</p>
+
+              <a href="tel:+34 633151716" class="contact-link">+34 633151716</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Edad</p>
+
+              <time datetime="1997-07-02">26 años</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localización</p>
+
+              <address>Madrid, España</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre mi</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Recorrido</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Proyectos</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Tecnologias</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contacto</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="sobre mi">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mí</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Soy desarrollador web full stack de Madrid, España. Disfruto convirtiendo problemas complejos en diseños
+            simples, hermosos e intuitivos.
+          </p>
+
+          <p>
+            Mi trabajo es construir tu sitio web de manera que sea funcional y fácil de usar pero al mismo tiempo
+            atractivo. Además, añado un toque personal a tu producto y me aseguro de que sea llamativo y fácil de usar.
+            Mi objetivo es transmitir tu mensaje e identidad de la manera más creativa posible. He creado diseños web
+            para muchas marcas famosas.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Que hago</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Diseño web</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo web</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Aplicaciones móviles</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Habilidades</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title data-testimonials-avatar>Comunicación efectiva</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Ser capaz de comunicar ideas de manera clara y concisa tanto con colegas como con clientes es
+                    fundamental en el desarrollo de software. Esto implica escuchar activamente, expresarse de forma
+                    clara y comprender las necesidades del cliente.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Trabajo en equipo</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    En la mayoría de los proyectos de desarrollo, trabajar en colaboración con otros desarrolladores,
+                    diseñadores y profesionales de diferentes áreas es esencial. Saber colaborar, compartir
+                    conocimientos y resolver problemas en equipo mejora la eficiencia y la calidad del trabajo.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Resolución de problemas</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>El desarrollo de software implica enfrentarse a desafíos técnicos constantemente. Los
+                    desarrolladores necesitan ser capaces de analizar problemas, identificar soluciones efectivas y
+                    tomar decisiones adecuadas para resolverlos de manera eficiente.
+                  </p>
+                </div>
+
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Adaptabilidad</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    En un entorno tecnológico en constante evolución, es importante que los desarrolladores sean capaces
+                    de adaptarse rápidamente a nuevos lenguajes de programación, herramientas y metodologías. La
+                    capacidad de aprender y estar abierto al cambio es crucial para mantenerse relevante en la
+                    industria.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Pensamiento crítico</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Los desarrolladores deben ser capaces de evaluar de manera crítica su propio código y el de otros,
+                    identificando posibles mejoras, optimizaciones y errores. Esto implica ser capaz de analizar
+                    problemas desde diferentes perspectivas y tomar decisiones fundamentadas para mejorar la calidad del
+                    software desarrollado.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Comunicación efectiva</h4>
+
+
+              <div data-modal-text>
+                <p>
+                 
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+      
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="recorrido">
+
+        <header>
+          <h2 class="h2 article-title">Recorrido</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educación</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bootcamp factoría F5</h4>
+
+              <span>2023 - 2024</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Desarrollo de aplicaciones multiplataforma</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sistemas microinformáticos y redes</h4>
+
+              <span>2015 — 2017</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiencia</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Técnico informático - Hospital san carlos </h4>
+
+              <span>2022 — 2022</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Técnico informático - Grupo orenes</h4>
+
+              <span>2022 — 2022</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Técnico - Amazon</h4>
+
+              <span>2021 — 2021</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Técnico informático - Ministerio de educación</h4>
+
+              <span>2017 — 2017</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+ -->
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="proyectos">
+
+        <header>
+          <h2 class="h2 article-title">Proyectos</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul> -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ecommerce dashboard</h3>
+
+                <p class="project-category">Desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Marketplace full star</h3>
+
+                <p class="project-category">Desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">To do List</h3>
+
+                <p class="project-category">Aplicación</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ruleta de la suerte</h3>
+
+                <p class="project-category">Aplicación</p>
+
+              </a>
+            </li>
+
+            
+
+
+  
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #tECNOLOGIAS
+      -->
+
+      <article class="blog" data-page="tecnologias">
+
+        <header>
+          <h2 class="h2 article-title">Tecnologías</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/html.png" alt="HTML5" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">HTML5</h3>
+
+                  <p class="blog-text">
+Amplio conocimiento y manejo de HTML
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/css.png" alt="CSS" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">CSS</h3>
+
+                  <p class="blog-text">
+                    Amplio conocimiento y manejo de CSS
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/bootstrap.png" alt="Boostrap" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Boostrap</h3>
+
+                  <p class="blog-text">
+                    Amplio conocimiento y manejo de Boostrap
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/javascript.png" alt="Javascript" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">JavaScript</h3>
+
+                  <p class="blog-text">
+                    Cierto conocimiento y buen manejo de JavaScript
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/typescript.png" alt="TTypescript" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">TypeScript</h3>
+
+                  <p class="blog-text">
+                    Cierto conocimiento y buen manejo de TypeScript
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/angular.png" alt="Angular" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Angular</h3>
+
+                  <p class="blog-text">
+                    Algo conocimiento y poco manejo de Angular
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/react.png" alt="React" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">React</h3>
+
+                  <p class="blog-text">
+                    Cierto conocimiento y algo de manejo de React
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ionic.png" alt="Ionic" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Ionic</h3>
+
+                  <p class="blog-text">
+                    Algo conocimiento y poco manejo de Ionic
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/mongo.png" alt="mongo" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Mongo</h3>
+
+                  <p class="blog-text">
+                    Algo de conocimiento y algo manejo de JavaScript
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/mysql.png" alt="SQL" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">MySQL</h3>
+
+                  <p class="blog-text">
+                    Cierto conocimiento y algo manejo de MySQL
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/nodejs.png" alt="Node" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">NodeJS</h3>
+
+                  <p class="blog-text">
+                    Algo conocimiento y poco manejo de NodeJS
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contacto">
+
+        <header>
+          <h2 class="h2 article-title">Contacto</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Madrid+(David)&amp;t=&amp;z=8&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+
+
+
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulario de contacto</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nombre completo" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Mensaje" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar mensaje</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
